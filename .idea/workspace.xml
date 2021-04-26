@@ -1,13 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="006114a5-e9c6-40db-a2c8-b49447bd05a2" name="Default Changelist" comment="" />
+    <list default="true" id="006114a5-e9c6-40db-a2c8-b49447bd05a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/my.cnf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx/conf.d/app.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/local.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/chatting-channel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/chatting-channel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -121,6 +161,24 @@
       <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
       <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/ringcentral/psr7" />
+      <path value="$PROJECT_DIR$/vendor/symfony/psr-http-message-bridge" />
+      <path value="$PROJECT_DIR$/vendor/ratchet/rfc6455" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/sodium_compat" />
+      <path value="$PROJECT_DIR$/vendor/cboden/ratchet" />
+      <path value="$PROJECT_DIR$/vendor/evenement/evenement" />
+      <path value="$PROJECT_DIR$/vendor/pusher/pusher-php-server" />
+      <path value="$PROJECT_DIR$/vendor/react/event-loop" />
+      <path value="$PROJECT_DIR$/vendor/react/socket" />
+      <path value="$PROJECT_DIR$/vendor/react/promise-stream" />
+      <path value="$PROJECT_DIR$/vendor/react/cache" />
+      <path value="$PROJECT_DIR$/vendor/react/promise-timer" />
+      <path value="$PROJECT_DIR$/vendor/react/http" />
+      <path value="$PROJECT_DIR$/vendor/react/stream" />
+      <path value="$PROJECT_DIR$/vendor/react/dns" />
+      <path value="$PROJECT_DIR$/vendor/react/promise" />
+      <path value="$PROJECT_DIR$/vendor/beyondcode/laravel-websockets" />
     </include_path>
   </component>
   <component name="ProjectId" id="1rdFtveqUkfjGXHaevK0nqjeg39" />
@@ -129,17 +187,56 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.docker-compose.yml.php: Compose Deployment">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <configuration name="docker-compose.yml.php: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="php" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="" />
+          <option name="buildCliOptions" value="" />
+          <option name="command" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="commandLineOptions" value="" />
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml.php: Compose Deployment" />
+        <item itemvalue="Docker.docker/Dockerfile" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -149,7 +246,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1619298277952</updated>
-      <workItem from="1619298278981" duration="350000" />
+      <workItem from="1619298278981" duration="5605000" />
+      <workItem from="1619305658890" duration="714000" />
+      <workItem from="1619462166148" duration="2735000" />
     </task>
     <task id="LOCAL-00001" summary="retest">
       <created>1619298620323</created>
@@ -158,14 +257,72 @@
       <option name="project" value="LOCAL" />
       <updated>1619298620323</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="workspace">
+      <created>1619298669497</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619298669497</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="retest" />
-    <option name="LAST_COMMIT_MESSAGE" value="retest" />
+    <MESSAGE value="workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="435" y="187" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619466107816">
+      <screen x="0" y="32" width="1680" height="1018" />
+    </state>
+    <state x="435" y="187" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.32.1680.1018@0.32.1680.1018" timestamp="1619466107816" />
+    <state x="531" y="315" width="607" height="421" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1619303424390">
+      <screen x="0" y="32" width="1680" height="1018" />
+    </state>
+    <state x="531" y="315" width="607" height="421" key="#com.intellij.fileTypes.FileTypeChooser/0.32.1680.1018@0.32.1680.1018" timestamp="1619303424390" />
+    <state x="363" y="32" width="943" height="1018" key="CommitChangelistDialog2" timestamp="1619298669398">
+      <screen x="0" y="32" width="1680" height="1018" />
+    </state>
+    <state x="363" y="32" width="943" height="1018" key="CommitChangelistDialog2/0.32.1680.1018@0.32.1680.1018" timestamp="1619298669398" />
+    <state x="623" y="284" width="424" height="484" key="FileChooserDialogImpl" timestamp="1619310420793">
+      <screen x="0" y="32" width="1680" height="1018" />
+    </state>
+    <state x="623" y="284" width="424" height="484" key="FileChooserDialogImpl/0.32.1680.1018@0.32.1680.1018" timestamp="1619310420793" />
+    <state x="435" y="258" width="800" height="536" key="Vcs.Push.Dialog.v2" timestamp="1619298673431">
+      <screen x="0" y="32" width="1680" height="1018" />
+    </state>
+    <state x="435" y="258" width="800" height="536" key="Vcs.Push.Dialog.v2/0.32.1680.1018@0.32.1680.1018" timestamp="1619298673431" />
+    <state x="503" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1619465739351">
+      <screen x="0" y="32" width="1680" height="1018" />
+    </state>
+    <state x="503" y="233" width="672" height="678" key="search.everywhere.popup/0.32.1680.1018@0.32.1680.1018" timestamp="1619465739351" />
   </component>
 </project>
